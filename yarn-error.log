@@ -1,0 +1,50 @@
+Arguments: 
+  /usr/local/bin/node /usr/local/bin/yarn
+
+PATH: 
+  /usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  18.19.0
+
+Platform: 
+  darwin arm64
+
+Trace: 
+  SyntaxError: /Users/alvaro/Desktop/bidasoa-components/package.json: Unexpected token } in JSON at position 456
+      at JSON.parse (<anonymous>)
+      at /usr/local/lib/node_modules/yarn/lib/cli.js:1629:59
+      at Generator.next (<anonymous>)
+      at step (/usr/local/lib/node_modules/yarn/lib/cli.js:310:30)
+      at /usr/local/lib/node_modules/yarn/lib/cli.js:321:13
+
+npm manifest: 
+  {
+      "name": "bidasoa-components",
+      "version": "1.0.0",
+      "description": "Colección de componentes comunes empleados en proyectos Bidasoa.",
+      "keywords": [
+          "bidasoa",
+          "static-suite",
+          "paragraphs",
+          "htmlembed",
+          "paragraphHTML"
+      ],
+      "main": "./dist/index.js",
+      "types": "./dist/index.d.ts",
+      "files": [
+          "dist"
+      ],
+      "scripts": {
+          "build": "tsc src/index.ts --outDir dist",
+      }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

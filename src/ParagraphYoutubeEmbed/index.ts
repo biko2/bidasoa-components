@@ -1,0 +1,1 @@
+export { ParagraphYoutubeEmbed } from './ParagraphYoutubeEmbed';
