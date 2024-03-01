@@ -1,31 +1,41 @@
 {
-    "name": "@biko/bidasoa-components",
-    "version": "1.0.0",
-    "description": "Colección de componentes comunes empleados en proyectos Bidasoa.",
-    "keywords": [
-        "bidasoa",
-        "static-suite",
-        "paragraphs",
-        "htmlembed",
-        "paragraphHTML"
-    ],
-    "main": "./dist/index.js",
-    "types": "./dist/index.d.ts",
-    "files": [
-        "dist"
-    ],
-    "scripts": {
-        "build": "tsc"
-    },
-    "dependencies": {
-        "react": "^18.2.0",
-        "react-helmet": "^6.1.0",
-        "styled-components": "^6.1.6",
-        "typescript": "^5.3.3"
-    },
-    "devDependencies": {
-        "@types/node": "^20.10.6",
-        "@types/react": "^18.2.47",
-        "@types/react-helmet": "^6.1.11"
-    }
+  "name": "@biko/bidasoa-components",
+  "version": "1.0.0",
+  "description": "Colección de componentes comunes empleados en proyectos Bidasoa.",
+  "keywords": [
+    "bidasoa",
+    "static-suite",
+    "paragraphs",
+    "htmlembed",
+    "paragraphHTML"
+  ],
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-helmet": "^6.1.0",
+    "styled-components": "^6.1.6",
+    "typescript": "^5.3.3"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.6",
+    "@types/react": "^18.2.47",
+    "@types/react-helmet": "^6.1.11"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/biko2/bidasoa-components.git"
+  },
+  "author": "Biko",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/biko2/bidasoa-components/issues"
+  },
+  "homepage": "https://github.com/biko2/bidasoa-components#readme"
 }
